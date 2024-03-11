@@ -15,7 +15,7 @@
                 "summary": [
                     {
                         "kind": "text",
-                        "text": "API class for Pet Simulator 99.\n- REFERENCE: https://docs.biggamesapi.io/"
+                        "text": "API class for Pet Simulator 99.\r\n- REFERENCE: https://docs.biggamesapi.io/"
                     }
                 ]
             },
@@ -63,7 +63,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 10,
                             "character": 4,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L10"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L10"
                         }
                     ],
                     "type": {
@@ -93,7 +93,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 13,
                             "character": 4,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L13"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L13"
                         }
                     ],
                     "type": {
@@ -113,7 +113,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 96,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L96"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L96"
                         }
                     ],
                     "signatures": [
@@ -147,7 +147,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 96,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L96"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L96"
                                 }
                             ],
                             "type": {
@@ -187,7 +187,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 72,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L72"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L72"
                         }
                     ],
                     "signatures": [
@@ -221,7 +221,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 72,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L72"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L72"
                                 }
                             ],
                             "parameters": [
@@ -282,7 +282,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 40,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L40"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L40"
                         }
                     ],
                     "signatures": [
@@ -316,7 +316,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 40,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L40"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L40"
                                 }
                             ],
                             "parameters": [
@@ -464,7 +464,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 28,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L28"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L28"
                         }
                     ],
                     "signatures": [
@@ -498,7 +498,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 28,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L28"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L28"
                                 }
                             ],
                             "parameters": [
@@ -559,7 +559,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 19,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L19"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L19"
                         }
                     ],
                     "signatures": [
@@ -593,7 +593,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 19,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L19"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L19"
                                 }
                             ],
                             "type": {
@@ -636,7 +636,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 80,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L80"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L80"
                         }
                     ],
                     "signatures": [
@@ -670,7 +670,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 80,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L80"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L80"
                                 }
                             ],
                             "type": {
@@ -710,7 +710,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 105,
                             "character": 4,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L105"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L105"
                         }
                     ],
                     "signatures": [
@@ -744,7 +744,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 105,
                                     "character": 4,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L105"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L105"
                                 }
                             ],
                             "parameters": [
@@ -795,7 +795,7 @@
                             "fileName": "pet-simulator-99/index.ts",
                             "line": 88,
                             "character": 10,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L88"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L88"
                         }
                     ],
                     "signatures": [
@@ -829,7 +829,7 @@
                                     "fileName": "pet-simulator-99/index.ts",
                                     "line": 88,
                                     "character": 10,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L88"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L88"
                                 }
                             ],
                             "type": {
@@ -878,7 +878,7 @@
                     "fileName": "pet-simulator-99/index.ts",
                     "line": 8,
                     "character": 13,
-                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L8"
+                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/pet-simulator-99/index.ts#L8"
                 }
             ]
         },
@@ -901,7 +901,7 @@
                     "fileName": "requests.ts",
                     "line": 4,
                     "character": 12,
-                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L4"
+                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/requests.ts#L4"
                 }
             ],
             "typeParameters": [
@@ -941,7 +941,7 @@
                                     "fileName": "requests.ts",
                                     "line": 8,
                                     "character": 4,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L8"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/requests.ts#L8"
                                 }
                             ],
                             "type": {
@@ -971,7 +971,7 @@
                                     "fileName": "requests.ts",
                                     "line": 6,
                                     "character": 4,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L6"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/requests.ts#L6"
                                 }
                             ],
                             "type": {
@@ -998,7 +998,7 @@
                                     "fileName": "requests.ts",
                                     "line": 10,
                                     "character": 4,
-                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L10"
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/requests.ts#L10"
                                 }
                             ],
                             "type": {
@@ -1023,7 +1023,7 @@
                             "fileName": "requests.ts",
                             "line": 4,
                             "character": 32,
-                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L4"
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/aa2d38e/src/requests.ts#L4"
                         }
                     ]
                 }
@@ -1045,19 +1045,19 @@
     "readme": [
         {
             "kind": "text",
-            "text": "# biggames.js\n\nSimple Node.js library for BIG Games public APIs.\n\n_Note: This package isn't finished yet. It fully works, however types have not be completed._\n\n## Install\n\n"
+            "text": "# biggames.js\r\n\r\nSimple Node.js library for BIG Games public APIs.\r\n\r\n_Note: This package isn't finished yet. It fully works, however types have not be completed._\r\n\r\n## Install\r\n\r\n"
         },
         {
             "kind": "code",
-            "text": "```\nnpm install biggames.js\n```"
+            "text": "```\r\nnpm install biggames.js\r\n```"
         },
         {
             "kind": "text",
-            "text": "\n\n## Example\n\n"
+            "text": "\r\n\r\n## Example\r\n\r\n"
         },
         {
             "kind": "code",
-            "text": "```js\n// Import the package.\nimport { PetSimulator99 } from 'biggames.js';\n\n// Use the PetSimulator99 class to access methods.\nconst api = new PetSimulator99();\n\n// Fetch information about the CAT clan.\nconsole.log(await api.clan('CAT'));\n```"
+            "text": "```js\r\n// Import the package.\r\nimport { PetSimulator99 } from 'biggames.js';\r\n\r\n// Use the PetSimulator99 class to access methods.\r\nconst api = new PetSimulator99();\r\n\r\n// Fetch information about the CAT clan.\r\nconsole.log(await api.clan('CAT'));\r\n```"
         }
     ],
     "symbolIdMap": {

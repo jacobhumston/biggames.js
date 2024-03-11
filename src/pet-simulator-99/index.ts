@@ -54,7 +54,7 @@ export class PetSimulator99 {
         return await get(constructURL(this.#base, 'activeClanBattle'));
     }
 
-    async image(id: string|number): string {
+    image(id: string|number): string {
         return constructURL(this.#base, `image/${id}`);
     }
 }

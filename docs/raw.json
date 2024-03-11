@@ -1,800 +1,1197 @@
 {
-	"id": 0,
-	"name": "biggames.js",
-	"variant": "project",
-	"kind": 1,
-	"flags": {},
-	"children": [
-		{
-			"id": 1,
-			"name": "PetSimulator99",
-			"variant": "declaration",
-			"kind": 128,
-			"flags": {},
-			"children": [
-				{
-					"id": 2,
-					"name": "constructor",
-					"variant": "declaration",
-					"kind": 512,
-					"flags": {},
-					"signatures": [
-						{
-							"id": 3,
-							"name": "new PetSimulator99",
-							"variant": "signature",
-							"kind": 16384,
-							"flags": {},
-							"type": {
-								"type": "reference",
-								"target": 1,
-								"name": "PetSimulator99",
-								"package": "biggames.js"
-							}
-						}
-					]
-				},
-				{
-					"id": 4,
-					"name": "#base",
-					"variant": "declaration",
-					"kind": 1024,
-					"flags": {
-						"isPrivate": true
-					},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 4,
-							"character": 4,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L4"
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "string"
-					},
-					"defaultValue": "'https://biggamesapi.io/api/'"
-				},
-				{
-					"id": 23,
-					"name": "activeClanBattle",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 53,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L53"
-						}
-					],
-					"signatures": [
-						{
-							"id": 24,
-							"name": "activeClanBattle",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 53,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L53"
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				},
-				{
-					"id": 16,
-					"name": "clan",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 41,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L41"
-						}
-					],
-					"signatures": [
-						{
-							"id": 17,
-							"name": "clan",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 41,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L41"
-								}
-							],
-							"parameters": [
-								{
-									"id": 18,
-									"name": "name",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "string"
-									}
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				},
-				{
-					"id": 10,
-					"name": "clans",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 14,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L14"
-						}
-					],
-					"signatures": [
-						{
-							"id": 11,
-							"name": "clans",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 14,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L14"
-								}
-							],
-							"parameters": [
-								{
-									"id": 12,
-									"name": "page",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {
-										"isOptional": true
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 13,
-									"name": "pageSize",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {
-										"isOptional": true
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 14,
-									"name": "sort",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {
-										"isOptional": true
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "literal",
-												"value": "DepositedDiamonds"
-											},
-											{
-												"type": "literal",
-												"value": "Points"
-											},
-											{
-												"type": "literal",
-												"value": "Created"
-											}
-										]
-									}
-								},
-								{
-									"id": 15,
-									"name": "sortOrder",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {
-										"isOptional": true
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "literal",
-												"value": "asc"
-											},
-											{
-												"type": "literal",
-												"value": "desc"
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				},
-				{
-					"id": 7,
-					"name": "collection",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 10,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L10"
-						}
-					],
-					"signatures": [
-						{
-							"id": 8,
-							"name": "collection",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 10,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L10"
-								}
-							],
-							"parameters": [
-								{
-									"id": 9,
-									"name": "name",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "string"
-									}
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				},
-				{
-					"id": 5,
-					"name": "collections",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 6,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L6"
-						}
-					],
-					"signatures": [
-						{
-							"id": 6,
-							"name": "collections",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 6,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L6"
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "string"
-												}
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				},
-				{
-					"id": 19,
-					"name": "exists",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 45,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L45"
-						}
-					],
-					"signatures": [
-						{
-							"id": 20,
-							"name": "exists",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 45,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L45"
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				},
-				{
-					"id": 25,
-					"name": "image",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 57,
-							"character": 4,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L57"
-						}
-					],
-					"signatures": [
-						{
-							"id": 26,
-							"name": "image",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 57,
-									"character": 4,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L57"
-								}
-							],
-							"parameters": [
-								{
-									"id": 27,
-									"name": "id",
-									"variant": "param",
-									"kind": 32768,
-									"flags": {},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "string"
-											},
-											{
-												"type": "intrinsic",
-												"name": "number"
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "string"
-							}
-						}
-					]
-				},
-				{
-					"id": 21,
-					"name": "rap",
-					"variant": "declaration",
-					"kind": 2048,
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "pet-simulator-99/index.ts",
-							"line": 49,
-							"character": 10,
-							"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L49"
-						}
-					],
-					"signatures": [
-						{
-							"id": 22,
-							"name": "rap",
-							"variant": "signature",
-							"kind": 4096,
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "pet-simulator-99/index.ts",
-									"line": 49,
-									"character": 10,
-									"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L49"
-								}
-							],
-							"type": {
-								"type": "reference",
-								"target": {
-									"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
-									"qualifiedName": "Promise"
-								},
-								"typeArguments": [
-									{
-										"type": "reference",
-										"target": {
-											"sourceFileName": "src/requests.ts",
-											"qualifiedName": "APIResponse"
-										},
-										"typeArguments": [
-											{
-												"type": "intrinsic",
-												"name": "any"
-											}
-										],
-										"name": "APIResponse",
-										"package": "biggames.js"
-									}
-								],
-								"name": "Promise",
-								"package": "typescript"
-							}
-						}
-					]
-				}
-			],
-			"groups": [
-				{
-					"title": "Constructors",
-					"children": [
-						2
-					]
-				},
-				{
-					"title": "Properties",
-					"children": [
-						4
-					]
-				},
-				{
-					"title": "Methods",
-					"children": [
-						23,
-						16,
-						10,
-						7,
-						5,
-						19,
-						25,
-						21
-					]
-				}
-			],
-			"sources": [
-				{
-					"fileName": "pet-simulator-99/index.ts",
-					"line": 3,
-					"character": 13,
-					"url": "https://github.com/jacobhumston-school/biggames.js/blob/455ccaf/src/pet-simulator-99/index.ts#L3"
-				}
-			]
-		}
-	],
-	"groups": [
-		{
-			"title": "Classes",
-			"children": [
-				1
-			]
-		}
-	],
-	"packageName": "biggames.js",
-	"packageVersion": "1.0.0-alpha",
-	"readme": [
-		{
-			"kind": "text",
-			"text": "# biggames.js\n\nSimple Node.js library for BIG Games public APIs.\n\n_Note: This package isn't finished yet. It fully works, however types have not be completed._\n\n## Install\n\n"
-		},
-		{
-			"kind": "code",
-			"text": "```\nnpm install biggames.js\n```"
-		},
-		{
-			"kind": "text",
-			"text": "\n\n## Example\n\n"
-		},
-		{
-			"kind": "code",
-			"text": "```js\n// Import the package.\nimport { PetSimulator99 } from 'biggames.js';\n\n// Use the PetSimulator99 class to access methods.\nconst api = new PetSimulator99();\n\n// Fetch information about the CAT clan.\nconsole.log(await api.clan('CAT'));\n```"
-		}
-	],
-	"symbolIdMap": {
-		"0": {
-			"sourceFileName": "src/index.ts",
-			"qualifiedName": ""
-		},
-		"1": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99"
-		},
-		"4": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.#base"
-		},
-		"5": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.collections"
-		},
-		"6": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.collections"
-		},
-		"7": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.collection"
-		},
-		"8": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.collection"
-		},
-		"9": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "name"
-		},
-		"10": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.clans"
-		},
-		"11": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.clans"
-		},
-		"12": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "page"
-		},
-		"13": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "pageSize"
-		},
-		"14": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "sort"
-		},
-		"15": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "sortOrder"
-		},
-		"16": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.clan"
-		},
-		"17": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.clan"
-		},
-		"18": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "name"
-		},
-		"19": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.exists"
-		},
-		"20": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.exists"
-		},
-		"21": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.rap"
-		},
-		"22": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.rap"
-		},
-		"23": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.activeClanBattle"
-		},
-		"24": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.activeClanBattle"
-		},
-		"25": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.image"
-		},
-		"26": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "PetSimulator99.image"
-		},
-		"27": {
-			"sourceFileName": "src/pet-simulator-99/index.ts",
-			"qualifiedName": "id"
-		}
-	}
+    "id": 0,
+    "name": "biggames.js",
+    "variant": "project",
+    "kind": 1,
+    "flags": {},
+    "children": [
+        {
+            "id": 1,
+            "name": "PetSimulator99",
+            "variant": "declaration",
+            "kind": 128,
+            "flags": {},
+            "comment": {
+                "summary": [
+                    {
+                        "kind": "text",
+                        "text": "API class for Pet Simulator 99.\n- REFERENCE: https://docs.biggamesapi.io/"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "id": 2,
+                    "name": "constructor",
+                    "variant": "declaration",
+                    "kind": 512,
+                    "flags": {},
+                    "signatures": [
+                        {
+                            "id": 3,
+                            "name": "new PetSimulator99",
+                            "variant": "signature",
+                            "kind": 16384,
+                            "flags": {},
+                            "type": {
+                                "type": "reference",
+                                "target": 1,
+                                "name": "PetSimulator99",
+                                "package": "biggames.js"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "#base",
+                    "variant": "declaration",
+                    "kind": 1024,
+                    "flags": {
+                        "isPrivate": true
+                    },
+                    "comment": {
+                        "summary": [
+                            {
+                                "kind": "text",
+                                "text": "Base url. (Could also be considered/called the api url.)"
+                            }
+                        ]
+                    },
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 10,
+                            "character": 4,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L10"
+                        }
+                    ],
+                    "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                    },
+                    "defaultValue": "'https://biggamesapi.io/api/'"
+                },
+                {
+                    "id": 5,
+                    "name": "#core",
+                    "variant": "declaration",
+                    "kind": 1024,
+                    "flags": {
+                        "isPrivate": true
+                    },
+                    "comment": {
+                        "summary": [
+                            {
+                                "kind": "text",
+                                "text": "Core url."
+                            }
+                        ]
+                    },
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 13,
+                            "character": 4,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L13"
+                        }
+                    ],
+                    "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                    },
+                    "defaultValue": "'https://biggamesapi.io/'"
+                },
+                {
+                    "id": 24,
+                    "name": "activeClanBattle",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 96,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L96"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 25,
+                            "name": "activeClanBattle",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "The latest clan battle, whether active or not."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "The latest clan battle, whether active or not."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 96,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L96"
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "any"
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "name": "clan",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 72,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L72"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 18,
+                            "name": "clan",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "The details of a specific clan."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "The details of the specified clan."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 72,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L72"
+                                }
+                            ],
+                            "parameters": [
+                                {
+                                    "id": 19,
+                                    "name": "name",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {},
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "Name of the clan."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "intrinsic",
+                                        "name": "string"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "any"
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "name": "clans",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 40,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L40"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 12,
+                            "name": "clans",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "An overview of all the clans."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "Details of the clans within this page."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 40,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L40"
+                                }
+                            ],
+                            "parameters": [
+                                {
+                                    "id": 13,
+                                    "name": "page",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {
+                                        "isOptional": true
+                                    },
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "Page index."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "intrinsic",
+                                        "name": "number"
+                                    }
+                                },
+                                {
+                                    "id": 14,
+                                    "name": "pageSize",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {
+                                        "isOptional": true
+                                    },
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "Size of the page."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "intrinsic",
+                                        "name": "number"
+                                    }
+                                },
+                                {
+                                    "id": 15,
+                                    "name": "sort",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {
+                                        "isOptional": true
+                                    },
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "How to sort the page."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "union",
+                                        "types": [
+                                            {
+                                                "type": "literal",
+                                                "value": "DepositedDiamonds"
+                                            },
+                                            {
+                                                "type": "literal",
+                                                "value": "Points"
+                                            },
+                                            {
+                                                "type": "literal",
+                                                "value": "Created"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": 16,
+                                    "name": "sortOrder",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {
+                                        "isOptional": true
+                                    },
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "In what order to sort the page."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "union",
+                                        "types": [
+                                            {
+                                                "type": "literal",
+                                                "value": "asc"
+                                            },
+                                            {
+                                                "type": "literal",
+                                                "value": "desc"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "any"
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "name": "collection",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 28,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L28"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 9,
+                            "name": "collection",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "The details from the specified collection. This contains a list of configuration data from the game configuration files. These are like rows of a database."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "Derails from the specified collection."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 28,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L28"
+                                }
+                            ],
+                            "parameters": [
+                                {
+                                    "id": 10,
+                                    "name": "name",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {},
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "The name of the collection."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "intrinsic",
+                                        "name": "string"
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "any"
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "collections",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 19,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L19"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 7,
+                            "name": "collections",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "Types of data from Pet Simulator 99's in-game configuration files. Each of these may be queried. These are like tables of a database."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "List of collections."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 19,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L19"
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "array",
+                                                "elementType": {
+                                                    "type": "intrinsic",
+                                                    "name": "string"
+                                                }
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "name": "exists",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 80,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L80"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 21,
+                            "name": "exists",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "Exists data for each item and pet in the game."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "Data for each item and pet in the game."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 80,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L80"
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "any"
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "name": "image",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 105,
+                            "character": 4,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L105"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 27,
+                            "name": "image",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "Displays a Roblox library asset as an image by proxing the request."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "The URL for the proxied image."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 105,
+                                    "character": 4,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L105"
+                                }
+                            ],
+                            "parameters": [
+                                {
+                                    "id": 28,
+                                    "name": "id",
+                                    "variant": "param",
+                                    "kind": 32768,
+                                    "flags": {},
+                                    "comment": {
+                                        "summary": [
+                                            {
+                                                "kind": "text",
+                                                "text": "The ID of the roblox image asset."
+                                            }
+                                        ]
+                                    },
+                                    "type": {
+                                        "type": "union",
+                                        "types": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "string"
+                                            },
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "number"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "type": {
+                                "type": "intrinsic",
+                                "name": "string"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "name": "rap",
+                    "variant": "declaration",
+                    "kind": 2048,
+                    "flags": {},
+                    "sources": [
+                        {
+                            "fileName": "pet-simulator-99/index.ts",
+                            "line": 88,
+                            "character": 10,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L88"
+                        }
+                    ],
+                    "signatures": [
+                        {
+                            "id": 23,
+                            "name": "rap",
+                            "variant": "signature",
+                            "kind": 4096,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "RAP data for each item and pet in the game."
+                                    }
+                                ],
+                                "blockTags": [
+                                    {
+                                        "tag": "@returns",
+                                        "content": [
+                                            {
+                                                "kind": "text",
+                                                "text": "The RAP data for each item and pet in the game."
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "pet-simulator-99/index.ts",
+                                    "line": 88,
+                                    "character": 10,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L88"
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+                                    "qualifiedName": "Promise"
+                                },
+                                "typeArguments": [
+                                    {
+                                        "type": "reference",
+                                        "target": 29,
+                                        "typeArguments": [
+                                            {
+                                                "type": "intrinsic",
+                                                "name": "any"
+                                            }
+                                        ],
+                                        "name": "APIResponse",
+                                        "package": "biggames.js"
+                                    }
+                                ],
+                                "name": "Promise",
+                                "package": "typescript"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "groups": [
+                {
+                    "title": "Constructors",
+                    "children": [2]
+                },
+                {
+                    "title": "Properties",
+                    "children": [4, 5]
+                },
+                {
+                    "title": "Methods",
+                    "children": [24, 17, 11, 8, 6, 20, 26, 22]
+                }
+            ],
+            "sources": [
+                {
+                    "fileName": "pet-simulator-99/index.ts",
+                    "line": 8,
+                    "character": 13,
+                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/pet-simulator-99/index.ts#L8"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "APIResponse",
+            "variant": "declaration",
+            "kind": 2097152,
+            "flags": {},
+            "comment": {
+                "summary": [
+                    {
+                        "kind": "text",
+                        "text": "Represents a response from the API."
+                    }
+                ]
+            },
+            "sources": [
+                {
+                    "fileName": "requests.ts",
+                    "line": 4,
+                    "character": 12,
+                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L4"
+                }
+            ],
+            "typeParameters": [
+                {
+                    "id": 34,
+                    "name": "Data",
+                    "variant": "typeParam",
+                    "kind": 131072,
+                    "flags": {}
+                }
+            ],
+            "type": {
+                "type": "reflection",
+                "declaration": {
+                    "id": 30,
+                    "name": "__type",
+                    "variant": "declaration",
+                    "kind": 65536,
+                    "flags": {},
+                    "children": [
+                        {
+                            "id": 32,
+                            "name": "data",
+                            "variant": "declaration",
+                            "kind": 1024,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "The data returned by the response."
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "requests.ts",
+                                    "line": 8,
+                                    "character": 4,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L8"
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": 34,
+                                "name": "Data",
+                                "package": "biggames.js",
+                                "refersToTypeParameter": true
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "name": "status",
+                            "variant": "declaration",
+                            "kind": 1024,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "The status of the response."
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "requests.ts",
+                                    "line": 6,
+                                    "character": 4,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L6"
+                                }
+                            ],
+                            "type": {
+                                "type": "literal",
+                                "value": "ok"
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "name": "url",
+                            "variant": "declaration",
+                            "kind": 1024,
+                            "flags": {},
+                            "comment": {
+                                "summary": [
+                                    {
+                                        "kind": "text",
+                                        "text": "The url used to get this response."
+                                    }
+                                ]
+                            },
+                            "sources": [
+                                {
+                                    "fileName": "requests.ts",
+                                    "line": 10,
+                                    "character": 4,
+                                    "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L10"
+                                }
+                            ],
+                            "type": {
+                                "type": "reference",
+                                "target": {
+                                    "sourceFileName": "node_modules/typescript/lib/lib.dom.d.ts",
+                                    "qualifiedName": "URL"
+                                },
+                                "name": "URL",
+                                "package": "typescript"
+                            }
+                        }
+                    ],
+                    "groups": [
+                        {
+                            "title": "Properties",
+                            "children": [32, 31, 33]
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "fileName": "requests.ts",
+                            "line": 4,
+                            "character": 32,
+                            "url": "https://github.com/jacobhumston-school/biggames.js/blob/eb290d2/src/requests.ts#L4"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "groups": [
+        {
+            "title": "Classes",
+            "children": [1]
+        },
+        {
+            "title": "Type Aliases",
+            "children": [29]
+        }
+    ],
+    "packageName": "biggames.js",
+    "packageVersion": "1.0.0-alpha",
+    "readme": [
+        {
+            "kind": "text",
+            "text": "# biggames.js\n\nSimple Node.js library for BIG Games public APIs.\n\n_Note: This package isn't finished yet. It fully works, however types have not be completed._\n\n## Install\n\n"
+        },
+        {
+            "kind": "code",
+            "text": "```\nnpm install biggames.js\n```"
+        },
+        {
+            "kind": "text",
+            "text": "\n\n## Example\n\n"
+        },
+        {
+            "kind": "code",
+            "text": "```js\n// Import the package.\nimport { PetSimulator99 } from 'biggames.js';\n\n// Use the PetSimulator99 class to access methods.\nconst api = new PetSimulator99();\n\n// Fetch information about the CAT clan.\nconsole.log(await api.clan('CAT'));\n```"
+        }
+    ],
+    "symbolIdMap": {
+        "0": {
+            "sourceFileName": "src/index.ts",
+            "qualifiedName": ""
+        },
+        "1": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99"
+        },
+        "4": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.#base"
+        },
+        "5": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.#core"
+        },
+        "6": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.collections"
+        },
+        "7": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.collections"
+        },
+        "8": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.collection"
+        },
+        "9": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.collection"
+        },
+        "10": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "name"
+        },
+        "11": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.clans"
+        },
+        "12": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.clans"
+        },
+        "13": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "page"
+        },
+        "14": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "pageSize"
+        },
+        "15": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "sort"
+        },
+        "16": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "sortOrder"
+        },
+        "17": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.clan"
+        },
+        "18": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.clan"
+        },
+        "19": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "name"
+        },
+        "20": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.exists"
+        },
+        "21": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.exists"
+        },
+        "22": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.rap"
+        },
+        "23": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.rap"
+        },
+        "24": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.activeClanBattle"
+        },
+        "25": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.activeClanBattle"
+        },
+        "26": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.image"
+        },
+        "27": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "PetSimulator99.image"
+        },
+        "28": {
+            "sourceFileName": "src/pet-simulator-99/index.ts",
+            "qualifiedName": "id"
+        },
+        "29": {
+            "sourceFileName": "src/requests.ts",
+            "qualifiedName": "APIResponse"
+        },
+        "30": {
+            "sourceFileName": "src/requests.ts",
+            "qualifiedName": "__type"
+        },
+        "31": {
+            "sourceFileName": "src/requests.ts",
+            "qualifiedName": "__type.status"
+        },
+        "32": {
+            "sourceFileName": "src/requests.ts",
+            "qualifiedName": "__type.data"
+        },
+        "33": {
+            "sourceFileName": "src/requests.ts",
+            "qualifiedName": "__type.url"
+        },
+        "34": {
+            "sourceFileName": "src/requests.ts",
+            "qualifiedName": "Data"
+        }
+    }
 }

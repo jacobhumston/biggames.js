@@ -17,5 +17,12 @@
         "build-test": "npm run build && npm run test"
     },
     "type": "module",
-    "types": "./build/types/index.d.ts"
+    "types": "./build/types/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jacobhumston/biggames.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jacobhumston/biggames.js/issues"
+    }
 }

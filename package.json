@@ -1,0 +1,21 @@
+{
+    "name": "biggames.js",
+    "version": "1.0.0-alpha",
+    "description": "Simple library for Big Game's public APIs.",
+    "main": "build/index.js",
+    "author": "jacobhumston",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "typescript": "^5.4.2"
+    },
+    "scripts": {
+        "format": "npx prettier ./ --write",
+        "test": "node test/index.js",
+        "build": "npx tsc",
+        "link": "npm link . && npm link biggames.js",
+        "build-test": "npm run build && npm run test"
+    },
+    "type": "module",
+    "types": "./build/types/index.d.ts"
+}

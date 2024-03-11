@@ -99,10 +99,12 @@ export class PetSimulator99 {
 
     /**
      * Displays a Roblox library asset as an image by proxing the request.
+     * Note: `rbxassetid://` will be automatically removed for you if provided in the ID.
      * @param id The ID of the roblox image asset.
      * @returns The URL for the proxied image.
      */
     image(id: string | number): string {
+        if (typeof id === 'string') id.replace('rbxassetid://', '');
         return constructURL(this.#core, `image/${id}`);
     }
 }

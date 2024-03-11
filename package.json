@@ -1,7 +1,7 @@
 {
     "name": "biggames.js",
     "version": "1.0.0-alpha",
-    "description": "Simple Node.js library for Big Games public APIs.",
+    "description": "Simple Node.js library for BIG Games public APIs.",
     "main": "build/index.js",
     "author": "jacobhumston",
     "license": "MIT",

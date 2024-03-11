@@ -1,0 +1,14 @@
+{
+    "entryPoints": ["src/index.ts"],
+    "out": "./docs/",
+    "navigationLinks": {
+        "GitHub": "https://github.com/jacobhumston/biggames.js",
+        "npm": "https://www.npmjs.com/package/biggames.js"
+    },
+    "$schema": "https://typedoc.org/schema.json",
+    "plugin": ["@mxssfd/typedoc-theme"],
+    "theme": "my-theme",
+    "includeVersion": true,
+    "json": "./docs/raw.json",
+    "media": "./media/"
+}

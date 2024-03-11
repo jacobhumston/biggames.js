@@ -9,5 +9,6 @@
     "plugin": ["@mxssfd/typedoc-theme"],
     "theme": "my-theme",
     "includeVersion": true,
-    "json": "./docs/raw.json"
+    "json": "./docs/raw.json",
+    "media": "./media/"
 }

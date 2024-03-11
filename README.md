@@ -1,3 +1,5 @@
+<img src="media/banner.png" alt="banner" width="640" height="360" />
+
 # biggames.js
 
 Simple Node.js library for BIG Games public APIs.

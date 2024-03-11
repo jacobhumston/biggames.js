@@ -35,7 +35,7 @@ export class PetSimulator99 {
                 value: sortOrder ?? 'desc'
             }
         ];
-        return await get(constructURL(this.#base, `clans`, parameters));
+        return await get(constructURL(this.#base, 'clans', parameters));
     }
 
     async clan(name: string): Promise<APIResponse<any>> {
@@ -43,14 +43,18 @@ export class PetSimulator99 {
     }
 
     async exists(): Promise<APIResponse<any>> {
-        return await get(constructURL(this.#base, `exists`));
+        return await get(constructURL(this.#base, 'exists'));
     }
 
     async rap(): Promise<APIResponse<any>> {
-        return await get(constructURL(this.#base, `rap`));
+        return await get(constructURL(this.#base, 'rap'));
     }
 
     async activeClanBattle(): Promise<APIResponse<any>> {
-        return await get(constructURL(this.#base, `activeClanBattle`));
+        return await get(constructURL(this.#base, 'activeClanBattle'));
+    }
+
+    async image(id: string|number): string {
+        return constructURL(this.#base, `image/${id}`);
     }
 }

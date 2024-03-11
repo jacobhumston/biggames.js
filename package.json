@@ -6,7 +6,9 @@
     "author": "jacobhumston",
     "license": "MIT",
     "devDependencies": {
+        "@mxssfd/typedoc-theme": "^1.1.3",
         "prettier": "^3.2.5",
+        "typedoc": "^0.25.12",
         "typescript": "^5.4.2"
     },
     "scripts": {
@@ -14,7 +16,8 @@
         "test": "node test/index.js",
         "build": "npx tsc",
         "link": "npm link . && npm link biggames.js",
-        "build-test": "npm run build && npm run test"
+        "build-test": "npm run build && npm run test",
+        "docs": "npx typedoc --hideGenerator --githubPages false"
     },
     "type": "module",
     "types": "./build/types/index.d.ts",

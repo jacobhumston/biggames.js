@@ -12,6 +12,10 @@ _Note: Not all type definitions have been completed!_
 npm install biggames.js
 ```
 
+## Documentation
+
+The documentation can be found at https://jacobhumston.github.io/biggames.js/!
+
 ## Example
 
 ```js

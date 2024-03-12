@@ -1,7 +1,7 @@
 {
     "name": "biggames.js",
-    "version": "1.0.0-alpha",
-    "description": "Simple Node.js library for BIG Games public APIs.",
+    "version": "1.1.0",
+    "description": "Simple Node.js library for BIG Games public APIs. Such as the API for Pet Simulator 99.",
     "main": "build/index.js",
     "author": "jacobhumston",
     "license": "MIT",

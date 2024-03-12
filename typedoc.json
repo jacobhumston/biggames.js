@@ -10,5 +10,6 @@
     "theme": "my-theme",
     "includeVersion": true,
     "json": "./docs/raw.json",
-    "media": "./media/"
+    "media": "./media/",
+    "cname": "biggames.js.org"
 }

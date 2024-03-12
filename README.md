@@ -2,9 +2,9 @@
 
 # biggames.js
 
-Simple Node.js library for BIG Games public APIs.
+Simple Node.js library for BIG Games public APIs. Such as the API for Pet Simulator 99.
 
-_Note: This package isn't finished yet. It fully works, however types have not be completed._
+_Note: Not all type definitions have been completed!_
 
 ## Install
 

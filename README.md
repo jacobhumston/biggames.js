@@ -14,7 +14,7 @@ npm install biggames.js
 
 ## Documentation
 
-The documentation can be found at https://jacobhumston.github.io/biggames.js/!
+The documentation can be found at https://biggames.js.org!
 
 ## Example
 
